@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	test, _ := mmphonenumber.SanitizeInput("+959962460148")
+	// test, _ := mmphonenumber.NormalizeInput("+၉၅၉၇၈၄၁၂၃၄၅၆")
+	test := mmphonenumber.IsValidMMPhoneNumber("09978412345")
 	fmt.Println(test)
 }
